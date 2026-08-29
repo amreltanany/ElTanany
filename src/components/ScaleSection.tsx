@@ -4,6 +4,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
+const basePath = import.meta.env.BASE_URL || '/';
+
 export default function ScaleSection() {
   const sectionRef = useRef<HTMLElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -83,7 +85,7 @@ export default function ScaleSection() {
             width: '40vw',
             height: '40vh',
             backgroundImage:
-              'url(/cover.png)',
+              `url(${basePath}cover.png)`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             boxShadow: '0 40px 80px -20px rgba(0,0,0,0.8)',
