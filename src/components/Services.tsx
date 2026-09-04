@@ -26,8 +26,8 @@ const services = [
   {
     num: '04',
     title: 'PERSONAL PORTFOLIO',
-    desc: 'Architected AmrElTanany Portfolio to serve as a high-speed central hub for cutting-edge web projects, combining slick motion design, interactive features, and bulletproof code execution.',
-    tags: ['Html 5', 'Tailwind / CSS3', 'JavaScript'],
+    desc: 'Architected a Portfolio to serve as a high-speed central hub for cutting-edge web projects, combining slick motion design, interactive features, and bulletproof code execution.',
+    tags: ['TypeScript', 'React + Vite', 'Tailwind CSS'],
   },
 ];
 

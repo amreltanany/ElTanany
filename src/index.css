@@ -78,7 +78,7 @@ html.lenis body {
 
 /* Word reveal */
 .reveal-word {
-  display: inline;
+  display: block;
   color: #2a2a2a;
   transition: none;
 }

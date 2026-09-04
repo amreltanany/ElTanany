@@ -5,8 +5,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const PARAGRAPH = [
-  '.2 weeks of dedicated post-launch support and performance fine-tuning included',
-  'blablabla'
+  'Website For Rent: Full platform access, hosting, and domain included—pay only after approving the final design.',
+  'High Performance Architecture: Built with ultra-fast loading speeds, optimal SEO, and clean scalable code.',
+  '2 weeks of dedicated post-launch support and performance fine-tuning included.',
+  'End-to-End Security: Automated backups, SSL protection, and robust defense.'
 ];
 export default function TextReveal() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -33,7 +35,7 @@ export default function TextReveal() {
     return () => ctx.revert();
   }, []);
 
-  const words = PARAGRAPH.split(' ');
+  const items = PARAGRAPH;
 
   return (
     <section
@@ -49,12 +51,14 @@ export default function TextReveal() {
           </span>
         </div>
 
-        <div ref={textRef} className="font-body text-3xl md:text-5xl lg:text-6xl leading-[1.3] tracking-tight">
-          {words.map((word, i) => (
-            <span key={i} className="reveal-word">
-              {word}{' '}
-            </span>
-          ))}
+        <div ref={textRef} className="font-body text-[1.45rem] leading-[1.3] tracking-tight">
+          <ul className="list-disc list-inside space-y-6">
+            {items.map((item, i) => (
+              <li key={i} className="reveal-word whitespace-nowrap">
+                {item}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>
