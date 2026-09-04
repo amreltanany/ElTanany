@@ -101,9 +101,7 @@ export default function Footer() {
           </div>
           <div className="footer-info">
             <h3 className="text-xs font-body uppercase tracking-wider text-white/40 mb-3">
-              Based in
             </h3>
-            <p className="font-display text-2xl md:text-3xl">Cairo, Egypt</p>
             <p className="font-body text-white/40 mt-2">Working worldwide</p>
           </div>
         </div>

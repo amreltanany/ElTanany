@@ -4,9 +4,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const PARAGRAPH =
-  'After-sale service starts with 2 weeks of full, dedicated support, I dont just deliver a high-performance web platform and walk away — I handle initial maintenance, fine-tuning, and performance monitoring to guarantee your app runs flawlessly from day one.';
-
+const PARAGRAPH = [
+  '.2 weeks of dedicated post-launch support and performance fine-tuning included',
+  'blablabla'
+];
 export default function TextReveal() {
   const sectionRef = useRef<HTMLElement>(null);
   const textRef = useRef<HTMLDivElement>(null);

@@ -44,14 +44,13 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-10 text-sm font-body text-white/70">
           <a href="#work" className="nav-link">Work</a>
           <a href="#about" className="nav-link">About</a>
-          <a href="#services" className="nav-link">Services</a>
-          <a href="#contact" className="nav-link">Contact</a>
+          <a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FAmr_ElTanany%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadijl42YlwyWtuFUmV-0feKI_EM9feLsSQYfsJA6CT3VWPG1IcbSUjHitEmeQ_aem_MZNxS1ONivN3v3KIkJMFVw&e=AUCj6I9zfJLFzd-sUkKZqvV3eGdJos4f061WekHutDR8thvm5KV2oE1VPzGwIazV686KUbF_k7msgv8UC32vuoA5GGMCVHEruGiN_3gDmwtOn_wX3ondNbTkTvVerluJ1HkDAD8" className="nav-link">Full Profile</a>
         </div>
         <a
           href="#contact"
           className="text-sm font-body px-5 py-2.5 border border-white/15 rounded-full hover:bg-white hover:text-black transition-colors duration-300"
         >
-          Let's talk
+          Contact
         </a>
       </div>
     </nav>

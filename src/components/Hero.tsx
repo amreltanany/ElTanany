@@ -144,7 +144,7 @@ export default function Hero() {
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
         <span className="text-[10px] font-body uppercase tracking-[0.3em] text-white/30">
-          Scroll
+          
         </span>
         <div className="w-px h-12 bg-gradient-to-b from-white/30 to-transparent" />
       </div>

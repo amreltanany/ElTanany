@@ -87,7 +87,7 @@ export default function Services() {
             <div className="flex items-center gap-3 mb-4">
               <span className="w-8 h-px bg-[#c8ff00]" />
               <span className="text-xs font-body uppercase tracking-[0.3em] text-white/40">
-                Capabilities
+                Last Work
               </span>
             </div>
             <h2 className="font-display text-5xl md:text-7xl font-bold tracking-tight">
@@ -107,13 +107,14 @@ export default function Services() {
                 s.num === '01' ? 'https://qaro2a.com/' :
                 s.num === '02' ? 'https://displayegypt.com/' :
                 s.num === '03' ? 'https://samconstructions-eg.com/' :
+                s.num === '04' ? 'https://amreltanany.github.io/new_port/' :
                 '#'
               }
               target={
-                s.num === '01' || s.num === '02' || s.num === '03' ? '_blank' : '_self'
+                s.num === '01' || s.num === '02' || s.num === '03' || s.num === '04' ? '_blank' : '_self'
               }
               rel={
-                s.num === '01' || s.num === '02' || s.num === '03' ? 'noopener noreferrer' : ''
+                s.num === '01' || s.num === '02' || s.num === '03' || s.num === '04' ? 'noopener noreferrer' : ''
               }
               className="service-card group relative bg-[#0a0a0a] p-8 md:p-12 hover:bg-[#111] transition-colors duration-500 cursor-pointer block"
             >
