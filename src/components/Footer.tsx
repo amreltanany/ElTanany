@@ -120,6 +120,7 @@ export default function Footer() {
         </h2>
       </div>
 <hr className="border-t border-white/10" />
+      <p className="py-6 text-center text-xs font-body text-white/40">Built by <a href="https://amreltanany.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-white/70 transition-colors">Amr ElTanany</a></p>
       
     </footer>
   );
